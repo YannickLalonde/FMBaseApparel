@@ -8,7 +8,7 @@ const notificationRed = document.querySelector('.error-notification');
 const notificationGreen = document.querySelector('.pass-notification');
 const loading = document.querySelector('.loading');
 
-console.log(inputField);
+// console.log(inputField);
 
 inputField.addEventListener('input', () => {
     const email = inputField.value;
