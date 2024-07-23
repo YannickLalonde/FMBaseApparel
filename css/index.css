@@ -165,13 +165,14 @@ img {
 .input-section {
   margin-top: 0.7rem;
   border: 0.1rem solid hsl(0, 36%, 70%);
-  max-width: 26rem;
+  max-width: 20rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0px 0px 0px 10px;
   border-radius: 10rem;
   transition: all 0.3s ease;
+  margin-right: 10px;
 }
 
 .input-field {
