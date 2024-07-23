@@ -308,13 +308,13 @@ img {
 }
 
 .bg-contact {
-  background-image: url("images/bg-pattern-desktop.svg");
+  background-image: url("./images/bg-pattern-desktop.svg");
   background-size: cover;
   height: 100vh;
 }
 
 .bg-mobile {
-  background-image: url("/images/hero-mobile.jpg");
+  background-image: url("./images/hero-mobile.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
@@ -323,7 +323,7 @@ img {
 }
 
 .bg-hero {
-  background-image: url("/images/hero-desktop.jpg");
+  background-image: url("./images/hero-desktop.jpg");
   background-size: cover;
   min-height: 100vh;
 }
