@@ -165,7 +165,7 @@ img {
 .input-section {
   margin-top: 0.7rem;
   border: 0.1rem solid hsl(0, 36%, 70%);
-  max-width: 27rem;
+  max-width: 26rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -243,12 +243,8 @@ img {
   padding-top: 3.75rem;
 }
 
-.pt-5 {
-  padding-top: 5.25rem;
-}
-
-.pb-2 {
-  padding-bottom: 1.5rem;
+.pb-1 {
+  padding-bottom: 0.75rem;
 }
 
 .mt-1 {
@@ -326,4 +322,8 @@ img {
   background-image: url("../images/hero-desktop.jpg");
   background-size: cover;
   min-height: 100vh;
+}
+
+.arrow {
+  min-width: 8px;
 }
