@@ -165,7 +165,7 @@ img {
 .input-section {
   margin-top: 0.7rem;
   border: 0.1rem solid hsl(0, 36%, 70%);
-  max-width: 20rem;
+  max-width: 15rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
