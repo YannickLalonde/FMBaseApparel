@@ -308,7 +308,7 @@ img {
 }
 
 .bg-contact {
-  background-image: url("./images/bg-pattern-desktop.svg");
+  background-image: url("../images/bg-pattern-desktop.svg");
   background-size: cover;
   height: 100vh;
 }
