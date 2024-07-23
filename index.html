@@ -1,33 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Base Apparel coming soon page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./css/index.css">
 </head>
+
 <body>
+  <div class="row">
+    <div class="col-12-xs col-7-md">
 
-  We're coming soon
+      <!-- Left section -->
+      <div class="bg-contact container">
 
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
+        <!-- Logo -->
+        <img src="./images/logo.svg" alt="Base Apparel Logo" class="pt-4 responsive">
 
-  Email Address
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+        <!-- Mobile Hero -->
+        <div class="mobile-show bg-mobile mt-4 mb-3 p-0" aria-label="Picture of Woman"></div>
+
+        <!-- We're Coming -->
+        <h1 class="p-line-height-big font-xxl responsive mb-2 pt-5 letter-spacing-lg">
+          <span class="font-weight-normal text-primary-desat">
+            WE'RE
+          </span>
+          <br>
+          <span class="font-weight-bolder text-neutral-dark">
+            COMING
+            <br>
+            SOON
+          </span>
+        </h1>
+
+        <!-- Little text -->
+        <div class="text-primary-desat p-line-height-bigger mb-3 font-size-md responsive">
+          <p>
+            Hello fellow shoppers! We're currently building our new fashion store.
+            Add your email below to stay up-to-date with announcements and our launch deals.
+          </p>
+        </div>
+
+        <!-- Email input -->
+        <div class="mt-1 responsive pb-2">
+          <div class="display-f direction-column">
+            <label for="Email" class="text-neutral-dark font-size-md align-left">Please enter your Email address</label>
+            <div class="input-section text-red responsive">
+              <input id="Email" type="text" placeholder="Email Address" class="input-field">
+              <img src="./images/icon-error.svg" alt="" class="error">
+              <button class="submit-btn"><img src="./images/icon-arrow.svg" role="button"
+                  name="element content" aria-label="Email" class="arrow"></button>
+            </div>
+          </div>
+          <p class="error-notification">Please provide a valid email</p>
+          <p class="pass-notification">Your email has been saved <i class="fa-solid fa-circle-check"
+              aria-hidden="true"></i></p>
+          <p class="loading"><span class="load"></span>loading.... Please wait</p>
+        </div>
+        <!-- End of Email input -->
+
+      </div>
+      <!-- End of Left Section -->
+    </div>
+
+    <!-- Large Hero -->
+    <div class="col-12-xs col-5-md col-5-lg mobile-hide">
+      <div class="bg-hero"></div>
+    </div>
+    <!-- End of Large Hero -->
+
+  </div>
+  <!-- End of page -->
+
+
+  <script type="module" src="./js/email.js"></script>
+
 </body>
+
 </html>
